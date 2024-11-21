@@ -16,7 +16,7 @@ body {
 }
 
 .uLine {
-  width: 78%;
+  width: inherit;
   margin: auto;
   border: 0.1px solid rgb(236, 227, 227);
   position: absolute;
@@ -56,8 +56,7 @@ div h2 {
 
 .imgDiv {
   background-color: #ffff;
-  height: 120px;
-  width: 160px;
+  height: 120px;  
   border-radius: 5px;
   transition: box-shadow 0.3s ease-in-out;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -87,8 +86,8 @@ div h2 {
   width: 48px;
   background: #ffffff;
   border-radius: 50%;
-  top: 319px;
-  left: 147px;
+  top: 310px;
+  left: 135px;
   transition: color 0.5s;
   transition: background-color 0.5s;
 }
@@ -112,8 +111,8 @@ div h2 {
   width: 48px;
   background: #ffffff;
   border-radius: 50%;
-  top: 315px;
-  right: 99px;
+  top: 310px;
+  right: 133px;
   transition: color 0.5s;
   transition: background-color 0.5s;
 }
@@ -147,9 +146,7 @@ div h2 {
 }
 
 .gridDiv {
-  position: absolute;
-  right: 8%;
-  width: 80%;
+  width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -157,7 +154,6 @@ div h2 {
 }
 
 .col2Div {
-  width: 99%;
   height: 110px;
   display: flex;
   border: 0.7px solid rgb(236, 227, 227);
@@ -182,10 +178,10 @@ div h2 {
 /* Second div */
 
 .secondDiv {
-  width: 75%;
+  width: 75%;  
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 4%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .topDiv {
